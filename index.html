@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatIsTheWeather</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="32d6cec1-a19f-49f6-a505-220ef74f8a7f.png">
+
+
+</head>
+
+<body>
+    <div class="popup"><b>DISCLAIMER: This weather app is for demonstration purposes only.
+            <p>• Data provided by <b>Open-Meteo</b> API is forecast-based and may not be 100% accurate <br>
+                • Weather predictions can change rapidly due to real-time atmospheric conditions<br>
+                • No guarantee of precision for critical decisions, specifically for AQI (travel, events, safety)<br>
+                • developer not liable for any losses/damages from weather data usage<br>
+                • Always verify with official meteorological sources for important decisions<br>
+                click here to continue<br>
+            <p style="text-align: center;">Built by Devesh | with chai ☕</p>
+        </b>
+        </p>
+    </div>
+    <button id="toggle">Light Mode</button>
+    <div class="container">
+        <div class="bar">
+            <input type="text" id="search">
+            <button id="btn">Search</button>
+        </div>
+        <div class="content">
+            <div class="placeName"></div>
+            <div class="info">
+                <div class="detail" id="temp">Temperature:</div>
+                <div class="detail" id="wspeed">Wind Speed:</div>
+                <div class="detail" id="flike">Feels Like:</div>
+                <div class="detail" id="aqi">AQI:</div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
