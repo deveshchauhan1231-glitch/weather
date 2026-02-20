@@ -32,3 +32,4 @@ Weather data is provided by the **Open-Meteo API**.
 
 ## License
 This project is for educational purposes.
+Adviced to check from trusted sources before planning.
